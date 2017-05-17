@@ -36,5 +36,15 @@
             <input type="checkbox" name="<?= $key_dessert ?>" value="<?= $key_dessert ?>"> <?= $value_dessert.PHP_EOL ?>
         <?php endforeach; ?>
         
+        <h3>Message</h3>
+        <?php if ($preferredCustomer): ?>
+            <strong>Thank you for being a preferred customer!</strong>
+        <?php endif; ?>
+        
+        <?php if ($lastLogin > strtotime('-1 month')): ?>
+            Welcome Back!
+            <?php else: ?>Its been a while!
+        <?php endif; ?>
+        
     </body>
 </html>
