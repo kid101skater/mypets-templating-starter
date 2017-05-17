@@ -46,5 +46,15 @@
             <?php else: ?>Its been a while!
         <?php endif; ?>
         
+        <h3>My Pet</h3>
+        <p> <?= $myPet->getName() ?></p>
+        <p> <?= $myPet->getColor() ?></p>
+        
+        <h3>Pet Check</h3>
+        <?php if ($myPet2->getColor() == $color): ?>
+            pet image here
+            <?php else: ?>pet was not same color
+        <?php endif; ?>
+        
     </body>
 </html>

@@ -46,5 +46,15 @@
             <false>Its been a while!</false>
         </check>
         
+        <h3>My Pet</h3>
+        <p> {{ @myPet->getName() }}</p>
+        <p> {{ @myPet->getColor() }}</p>
+        
+        <h3>Pet Check</h3>
+        <check if="{{ @myPet2->getColor() == @color }}">
+            <true>pet image here</true>
+            <false>pet was not same color</false>
+        </check>
+        
     </body>
 </html>

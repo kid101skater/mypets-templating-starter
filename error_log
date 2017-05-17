@@ -104,3 +104,6 @@
 [16-May-2017 21:01:33 America/Chicago] [IT328/mypets-templating-starter/index.php:22] Base->run()
 [16-May-2017 21:01:39 America/Chicago] Call to undefined function sha3() [/home/klocke/public_html/IT328/mypets-templating-starter/index.php:14]
 [16-May-2017 21:01:39 America/Chicago] [IT328/mypets-templating-starter/index.php:22] Base->run()
+[16-May-2017 22:17:35 America/Chicago] Call to a member function getName() on null [/home/klocke/public_html/IT328/mypets-templating-starter/tmp/1y9xfnzjnkasc.2hbmt1l6jeqsc.php:50]
+[16-May-2017 22:17:35 America/Chicago] [IT328/mypets-templating-starter/index.php:31] Preview->render()
+[16-May-2017 22:17:35 America/Chicago] [IT328/mypets-templating-starter/index.php:36] Base->run()
