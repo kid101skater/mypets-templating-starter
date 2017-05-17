@@ -96,3 +96,11 @@
 [06-May-2017 16:21:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tina/public_html/328/hello/tmp/3mbuebt34ig4c.3vzb1jrga60wg.php on line 32
 [06-May-2017 16:21:29 America/Chicago] Fatal error: syntax error, unexpected '}'
 [06-May-2017 16:21:29 America/Chicago] [328/hello/tmp/3mbuebt34ig4c.3vzb1jrga60wg.php:32] 
+[16-May-2017 21:01:13 America/Chicago] Call to undefined function sha3() [/home/klocke/public_html/IT328/mypets-templating-starter/index.php:15]
+[16-May-2017 21:01:13 America/Chicago] [IT328/mypets-templating-starter/index.php:23] Base->run()
+[16-May-2017 21:01:15 America/Chicago] Call to undefined function sha3() [/home/klocke/public_html/IT328/mypets-templating-starter/index.php:15]
+[16-May-2017 21:01:15 America/Chicago] [IT328/mypets-templating-starter/index.php:23] Base->run()
+[16-May-2017 21:01:33 America/Chicago] Call to undefined function sha3() [/home/klocke/public_html/IT328/mypets-templating-starter/index.php:14]
+[16-May-2017 21:01:33 America/Chicago] [IT328/mypets-templating-starter/index.php:22] Base->run()
+[16-May-2017 21:01:39 America/Chicago] Call to undefined function sha3() [/home/klocke/public_html/IT328/mypets-templating-starter/index.php:14]
+[16-May-2017 21:01:39 America/Chicago] [IT328/mypets-templating-starter/index.php:22] Base->run()
